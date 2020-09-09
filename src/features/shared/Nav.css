@@ -1,0 +1,19 @@
+.nav {
+  display: flex;
+  background-color: rgb(29, 161, 242);
+  margin: 0px;
+  padding: 0px;
+}
+
+.nav li {
+  list-style: none;
+  flex: 1;
+  padding: 20px;
+  text-align: center;
+  color: #ffffff;
+}
+.nav li a.active {
+  font-weight: bold;
+  text-decoration: none;
+  color: darkblue;
+}
